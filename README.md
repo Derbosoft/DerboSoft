@@ -28,6 +28,7 @@ Your VPN provider sees a Tor exit node, never your real address. Your ISP sees T
 
 - **Set up in minutes** — a wizard takes the file you downloaded from your VPN provider (`.ovpn` or `.zip`) and adapts it for Tor automatically
 - **Self-healing** — a systemd daemon fails over between accounts and providers, restarts only what is broken, and recovers after sleep
+- **Kill switch** — while connected, nothing leaves outside the tunnel, not even during reconnections; DNS to your router is refused too
 - **Built against leaks** — IPv6 blocking, VPN DNS applied on the tunnel, split DNS for local domains, and `katakomba doctor` to check it all
 - **Hardened** — allowlisted `.ovpn` and torrc directives, Tor running unprivileged, root-owned deployed code
 - **Native GNOME interface** (GTK 4 / libadwaita) in six languages, plus a complete CLI
