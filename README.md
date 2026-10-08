@@ -31,7 +31,7 @@ Your VPN provider sees a Tor exit node, never your real address. Your ISP sees T
 - **Built against leaks** — IPv6 blocking, VPN DNS applied on the tunnel, split DNS for local domains, and `katakomba doctor` to check it all
 - **Hardened** — allowlisted `.ovpn` and torrc directives, Tor running unprivileged, root-owned deployed code
 - **Native GNOME interface** (GTK 4 / libadwaita) in six languages, plus a complete CLI
-- **628 automated tests**, none of which touch the system they run on
+- **600+ automated tests**, none of which touch the system they run on
 
 <a href="https://github.com/Derbosoft/Katakomba">
   <img src="https://raw.githubusercontent.com/Derbosoft/Katakomba/main/assets/captures/connexion-en.png" alt="Katakomba connection screen" width="100%">
